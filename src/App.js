@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
 import ListView from './Components/ListView';
 import GridView from './Components/GridView';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <ListView />
       <GridView />
+      <Footer />
     </div>
   );
 }

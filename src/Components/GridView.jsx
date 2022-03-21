@@ -6,7 +6,7 @@ import speaker from '../images/speaker.jpg'
 const GridView = () => {
   return (
       <>
-          <div className="card-group">
+          <div className="card-group mb-4">
               <div className="card">
                   <img className="img-fluid h-100" src={ipad} alt="" />
                   <div className="card-body">
@@ -52,6 +52,18 @@ const GridView = () => {
                   </div>
               </div>
           </div>
+
+          {/* pager */}
+            <nav>
+                <ul className="pagination justify-content-center mb-4">
+                    <li className="page-item"><a className="page-link" href="#">Prev</a></li>
+                    <li className="page-item"><a className="page-link" href="#">1</a></li>
+                    <li className="page-item"><a className="page-link" href="#">2</a></li>
+                    <li className="page-item"><a className="page-link" href="#">3</a></li>
+                    <li className="page-item"><a className="page-link" href="#">...</a></li>
+                    <li className="page-item"><a className="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
       </>
   )
 }
