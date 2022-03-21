@@ -1,5 +1,7 @@
-.li-components{
-    position: absolute;
-    align-items: center;
-    justify-content: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+    sans-serif;
 }
