@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
       <>
         {/* Top Nav */}
-        <nav className="navbar navbar-expand-lg navbar-light bg-warning mb-0">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light mb-0">
             <div className="container-fluid">
-                <a className="navbar-brand h1 p-1 text-dark" href="#">Welcome to the MacStore</a>
+                <a className="navbar-brand h1 p-1 text-dark" href="#"><i>Welcome to the MacStore</i></a>
                 <div id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
@@ -29,7 +29,7 @@ const Navbar = () => {
             </div>
         </nav>
         {/* Bottom Nav */}
-        <nav className="navbar navbar-light bg-warning">
+        <nav className="navbar navbar-light bg-light">
             <div className="container-fluid">
                 <a className="navbar-brand h1" href="#">
                     <i className="fa-brands fa-shopify p-1 h1"></i>MacStore
@@ -42,7 +42,7 @@ const Navbar = () => {
             </div>
         </nav>
         {/* Under Nav List */}
-        <ul className="list-inline text-center p-1 mb-0 bg-info">
+        <ul className="list-inline text-center p-1 mb-0 bg-danger">
             <li className="list-inline-item col-sm-0">
                 <button type="button" className="btn">Home</button>
             </li>
