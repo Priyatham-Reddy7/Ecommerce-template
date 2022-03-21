@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
       <>
         {/* Top Nav */}
-        <nav className="navbar navbar-expand-md navbar-light bg-light mb-0">
+        <nav className="navbar navbar-expand-md navbar-light mb-0 nav-primary">
             <div className="container-fluid">
-                <a className="navbar-brand h1 p-1 text-dark" href="#"><i>Welcome to the MacStore</i></a>
+                <p className="navbar-brand h1 p-1 text-dark message">Welcome to the store!!</p>
                 <div id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
@@ -29,12 +29,12 @@ const Navbar = () => {
             </div>
         </nav>
         {/* Bottom Nav */}
-        <nav className="navbar navbar-expand-md navbar-light bg-light">
+        <nav className="navbar navbar-expand-md navbar-light nav-primary nav-bottom">
             <div className="container-fluid">
                 <a className="navbar-brand h1" href="#">
-                    <i className="fa-brands fa-shopify p-1 h1"></i>MacStore
+                    <i className="fa-brands fa-shopify p-1 h1 logo"></i><strong className='brand-name'>MacStore</strong>
                 </a>
-                <form className="d-flex">
+                <form className="d-flex p-2">
                     <input className="form-control me-2" type="search"  aria-label="Search"/>
                     <button className="btn btn-outline-dark" type="submit">Search</button>
                 </form>
@@ -42,15 +42,15 @@ const Navbar = () => {
             </div>
         </nav>
         {/* Under Nav List */}
-        <ul className="list-inline text-center p-1 mb-0 bg-danger">
+        <ul className="list-inline text-center p-1 mb-0 bg-light">
             <li className="list-inline-item col-sm-0">
                 <button type="button" className="btn">Home</button>
             </li>
             <li className="list-inline-item col-sm-0">
-                <button type="button" className="btn">Category1</button>
+                <button type="button" className="btn">Offers</button>
             </li>
             <li className="list-inline-item col-sm-0">
-                <button type="button" className="btn">Category2</button>
+                <button type="button" className="btn">Latest Products</button>
             </li>
         </ul>
     </>
