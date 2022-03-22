@@ -6,10 +6,6 @@
     sans-serif;
 }
 
-.message{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 .nav-primary{
     /* background-color: rgb(231, 222, 222); */
     background-color: #fff;
@@ -18,27 +14,39 @@
 
 .nav-bottom{
     border-bottom: 0.1px solid rgb(214, 209, 209);
+    padding-bottom: 10px;
 }
 
-
 .logo{
-    font-size: 26px;
+    font-size: 30px;
     color: rgb(16, 104, 145);
 }
 
 .brand-name{
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bolder;
     font-family: Poppins;
 }
 
 .form-control{
-    border: 0.3px solid black;
+    border: 0.1px solid rgb(173, 169, 169);
     margin-left: 70px;
+}
+
+.search{
+    border: 0.1px solid rgb(173, 169, 169);
+}
+
+.cart{
+    border: 0.1px solid rgb(173, 169, 169);
 }
 
 .card{
     border: none;
+}
+
+.fa-brands{
+    cursor: pointer;
 }
 
 

@@ -20,9 +20,19 @@ const Footer = () => {
                     <a className="nav-link active text-light" href="#">Contact Us</a>
                 </li>
             </ul>
-            <ul className="nav justify-content-center">
+            {/* Socials */}
+            <ul className="nav justify-content-center mt-2 h4">
                 <li className="nav-item">
-                    <a className="nav-link active text-light" href="#">Magento Theme designed with TemplateToaster</a>
+                    <i className="fa-brands fa-instagram text-light nav-link"></i>
+                </li>
+                <li className="nav-item">
+                    <i className="fa-brands fa-twitter nav-link text-light"></i>
+                </li>
+                <li className="nav-item">
+                    <i className="fa-brands fa-facebook nav-link text-light"></i>
+                </li>
+                <li className="nav-item">
+                    <i className="fa-brands fa-pinterest nav-link text-light"></i>
                 </li>
             </ul>
         </nav>
