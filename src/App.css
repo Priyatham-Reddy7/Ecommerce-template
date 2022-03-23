@@ -7,9 +7,18 @@
 }
 
 .nav-primary{
-    /* background-color: rgb(231, 222, 222); */
     background-color: #fff;
     padding: 0;
+}
+
+.nav-primary li{
+    transition: 0.5s ease-in-out;
+}
+
+
+.nav-primary li:hover{
+    background:rgb(85, 223, 223);
+    border-radius: 5%;
 }
 
 .nav-bottom{
@@ -19,7 +28,7 @@
 
 .logo{
     font-size: 30px;
-    color: rgb(16, 104, 145);
+    color: rgb(16, 115, 145);
 }
 
 .brand-name{

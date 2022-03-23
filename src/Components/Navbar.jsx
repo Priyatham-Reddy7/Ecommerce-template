@@ -50,7 +50,7 @@ const Navbar = () => {
             </div>
         </nav>
         {/* Under Nav List */}
-        <ul className="list-inline text-center p-1 mb-0 bg-light">
+        <ul className="list-inline text-center p-1 mb-0 bg-light categories">
             <li className="list-inline-item col-sm-0">
                 <button type="button" className="btn">Home</button>
             </li>
